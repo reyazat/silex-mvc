@@ -1,0 +1,13 @@
+access_ip:
+    1: "127.0.0.1"
+anonymousRoute:
+    1: "/readme"
+   
+anonymousUrlContain:
+    1: '/^\/js/i'
+    2: '/^\/css/i'
+    3: '/^\/images/i'
+    4: '/^\/Cache\/Compress/i'
+    5: '/^\/Cache\/Images/i'
+    6: '/^\/error/i'
+    

@@ -1,0 +1,30 @@
+parameters:
+    #--- TimeZone: UTC, Europe/Kiev...
+    timezone: UTC
+    DS : "/"
+    #--- Debug: true, false ---
+    debug: true
+   
+    #--- Database parameters ---
+    mysql_params:
+        driver     : "mysql"
+        host       : "localhost"
+        database   : "example"
+        username   : "root"
+        password   : ""
+        charset    : "utf8"
+        collation  : "utf8_general_ci"
+        prefix     : ""
+    redis_params:
+        host: ""
+        port: 6379
+        password: ""
+    #---------MonoLog-----------
+    monolog:
+        chanels:
+            1: "sql"
+            2: "debug"
+        mailer:
+            email: "@"
+            subject: "PHP error_log message"
+            from: "@"

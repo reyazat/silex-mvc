@@ -1,0 +1,50 @@
+{
+    "require": {
+        "silex/silex": "^2.3",
+        "knplabs/console-service-provider": "^2.2",
+        "symfony/var-dumper": "^4.0",
+        "monolog/monolog": "^1.23",
+        "symfony/translation": "^4.0",
+        "symfony/config": "^4.0",
+        "symfony/yaml": "^4.0",
+        "php-http/guzzle6-adapter": "^1.1",
+        "symfony/stopwatch": "^4.0",
+        "predis/service-provider": "^2.0",
+        "illuminate/database": "^5.6",
+        "symfony/psr-http-message-bridge": "^1.0",
+        "zendframework/zend-diactoros": "^1.7",
+        "rmccue/requests": "^1.7",
+        "twig/twig": "^2.4",
+        "symfony/twig-bridge": "^4.0",
+        "twig/extensions": "^1.5",
+        "nochso/html-compress-twig": "^2.0",
+        "erusev/parsedown": "^1.7",
+        "erusev/parsedown-extra": "^0.7.1",
+        "symfony/filesystem": "^4.0",
+        "symfony/asset": "^4.0",
+        "symfony/finder": "^4.0",
+        "kriswallsmith/assetic": "^1.4",
+        "symfony/validator": "^4.2",
+        "bandwidth-throttle/token-bucket": "^2.0",
+        "illuminate/pagination": "^5.6",
+        "illuminate/events": "^5.6",
+        "ramsey/uuid": "^3.7",
+        "moust/silex-cache": "^2.0",
+        "layershifter/tld-database": "^1.0",
+        "symfony/security": "^4.1",
+        "hashids/hashids": "^3.0",
+        "symfony/security-csrf": "^4.2",
+        "paypal/rest-api-sdk-php": "^1.14",
+        "ralouphie/getallheaders": "^3.0"
+    }
+,
+"autoload":{
+"psr-4":{
+"Controllers\\": "Src/Controllers",
+"Providers\\": "Src/Providers",
+"Helper\\": "Src/Helpers",
+"Component\\": "Src/Component",
+"Models\\": "Src/Models",
+"Console\\": "Src/Console"}
+}
+}

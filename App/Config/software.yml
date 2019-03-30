@@ -1,0 +1,8 @@
+software:
+    name: "Software name"
+    global_email: ""
+  
+    #--- Developer mail ---
+    developer_mail: ""
+    
+    

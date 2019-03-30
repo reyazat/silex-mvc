@@ -1,0 +1,13 @@
+mail:
+    smtp:    
+        mail.host: mail.host.local
+        mail.port: 25
+        mail.username: ""
+        mail.password: ""
+        # ('tls', 'ssl', or null)
+        mail.encryption: null
+        # ('plain', 'login', 'cram-md5', or null)
+        mail.auth_mode: null
+        # Disabling Sending
+        mail.disable_delivery:  true
+    
