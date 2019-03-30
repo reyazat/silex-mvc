@@ -49,8 +49,6 @@ wget http://debian.oppserver.net/gpg-debian.oppserver.net-signing-pubkey.asc -O 
 |        | Register.php  |
 |        | Session.php   |
 
-------------
-
 | Src |     
 |-----|-------------|--------------------|--------------------|--------------------|
 |     |Controllers  |             
@@ -84,7 +82,6 @@ wget http://debian.oppserver.net/gpg-debian.oppserver.net-signing-pubkey.asc -O 
 |     |           |  lib    |
 |     | .htaccess |      
 
-------------
 |		 |
 |--------|--------------|
 | Bin    | Command line ex: logs.sh |
